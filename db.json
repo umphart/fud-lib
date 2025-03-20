@@ -1,0 +1,154 @@
+{
+  "students": [
+    {
+      "id": "1",
+      "fullName": "Aliyu Musa",
+      "email": "aliyu.musa@fud.edu.ng",
+      "regNumber": "FUD/CSC/2021/0012",
+      "password": "password123"
+    },
+    {
+      "id": "2",
+      "fullName": "Maryam Bello",
+      "email": "maryam.bello@fud.edu.ng",
+      "regNumber": "FUD/CSC/2021/0045",
+      "level": "200",
+      "password": "password123"
+    },
+    {
+      "id": "3",
+      "fullName": "Usman Abdullahi",
+      "email": "usman.abdullahi@fud.edu.ng",
+      "regNumber": "FUD/CSC/2021/0089",
+      "password": "password123"
+    },
+    {
+      "id": "992b",
+      "fullName": "Umar Musa",
+      "email": "hh@gmail.com",
+      "regNumber": "CST/002",
+      "level": "200",
+      "password": "00000"
+    },
+    {
+      "id": "398b",
+      "fullName": "Musa Ibrahim",
+      "email": "umusa@gmail",
+      "regNumber": "CST/0000",
+      "password": "1995"
+    }
+  ],
+  "books": [
+    {
+      "id": "1",
+      "title": "Introduction to Computer Science",
+      "author": "John Doe",
+      "isbn": "978-1234567890",
+      "available": true
+    },
+    {
+      "id": "2",
+      "title": "Data Structures & Algorithms",
+      "author": "Robert Lafore",
+      "isbn": "978-2345678901",
+      "available": true
+    },
+    {
+      "id": "3",
+      "title": "Database Management Systems",
+      "author": "Elmasri & Navathe",
+      "isbn": "978-3456789012",
+      "available": true
+    },
+    {
+      "id": "c655",
+      "title": "Artificial Intelligence Basics",
+      "author": "Stuart Russell",
+      "isbn": "978-4567890123",
+      "available": true
+    },
+    {
+      "id": "17e9",
+      "title": "Machine Learning Fundamentals",
+      "author": "Ian Goodfellow",
+      "isbn": "978-5678901234",
+      "available": true
+    },
+    {
+      "id": "1d30",
+      "title": "Deep Learning with Python",
+      "author": "François Chollet",
+      "isbn": "978-6789012345",
+      "available": true
+    },
+    {
+      "id": "63a2",
+      "title": "Blockchain Essentials",
+      "author": "Don Tapscott",
+      "isbn": "978-7890123456",
+      "available": true
+    },
+    {
+      "id": "29ad",
+      "title": "New Book",
+      "author": "Author",
+      "isbn": "1234567890"
+    }
+  ],
+  "borrowRequests": [
+    {
+      "id": "b043",
+      "studentId": "398b",
+      "studentName": "Musa Ibrahim",
+      "email": "umusa@gmail",
+      "regNumber": "CST/0000",
+      "title": "Data Structures & Algorithms",
+      "isbn": "978-2345678901",
+      "status": "Pending"
+    },
+    {
+      "id": "4646",
+      "studentId": "398b",
+      "studentName": "Musa Ibrahim",
+      "email": "umusa@gmail",
+      "regNumber": "CST/0000",
+      "title": "Database Management Systems",
+      "isbn": "978-3456789012",
+      "status": "Pending"
+    },
+    {
+      "id": "2ab9",
+      "studentId": "398b",
+      "studentName": "Musa Ibrahim",
+      "email": "umusa@gmail",
+      "regNumber": "CST/0000",
+      "title": "Introduction to Computer Science",
+      "isbn": "978-1234567890",
+      "status": "Pending"
+    }
+  ],
+  "borrowedBooks": [
+    {
+      "id": "516f",
+      "studentId": "992b",
+      "studentName": "Umar Musa",
+      "email": "hh@gmail.com",
+      "regNumber": "CST/002",
+      "title": "Introduction to Computer Science",
+      "isbn": "978-1234567890",
+      "status": "Pending",
+      "dueDate": "2025-03-26"
+    },
+    {
+      "id": "2f74",
+      "studentId": "398b",
+      "studentName": "Musa Ibrahim",
+      "email": "umusa@gmail",
+      "regNumber": "CST/0000",
+      "title": "Introduction to Computer Science",
+      "isbn": "978-1234567890",
+      "status": "Pending",
+      "dueDate": "2025-03-26"
+    }
+  ]
+}
